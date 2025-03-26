@@ -1,6 +1,7 @@
 import numpy as np
 from calculate_need_matrix import calculate_need_matrix
 from safety_algorithm import safety_algorithm
+from resource_request_algorithm import resource_request_algorithm
 
 # Main Function of the Banker's Algorithm
 def bankers_algorithm(processes, allocation, max_need, available):

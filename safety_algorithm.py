@@ -1,4 +1,5 @@
 import numpy as np
+from resource_request_algorithm import resource_request_algorithm
 
 # Function to check if the system is in a safe state or not - Safety Algorithm
 def safety_algorithm(processes, allocation, need, available):
